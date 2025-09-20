@@ -372,7 +372,7 @@ set discount(aNumber) {this._discount = aNumber;}
 
 测试。
 
-用移除死代码（237）去掉变量的声明和赋值。
+用[[../第 8 章 搬移特性/8.9 Remove Dead Code|移除死代码]]（237）去掉变量的声明和赋值。
 
 ### 范例
 
@@ -417,7 +417,7 @@ get production() {
 }
 ```
 
-然后用[[第 6 章 第一组重构/6.2 Inline Function|内联函数]]（115）把计算逻辑内联到 production 函数内。
+然后用[[../第 6 章 第一组重构/6.2 Inline Function|内联函数]]（115）把计算逻辑内联到 production 函数内。
 
 #### class ProductionPlan...
 
@@ -428,7 +428,7 @@ get production() {
 }
 ```
 
-再用移除死代码（237）扫清使用旧变量的地方。
+再用[[../第 8 章 搬移特性/8.9 Remove Dead Code|移除死代码]]（237）扫清使用旧变量的地方。
 
 #### class ProductionPlan...
 
