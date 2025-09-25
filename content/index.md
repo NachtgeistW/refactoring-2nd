@@ -1,4 +1,6 @@
-# 封面
+---
+title: 封面
+---
 
 <img src="./cover.jpg" style="width: 25%" />
 
